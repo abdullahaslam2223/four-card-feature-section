@@ -1,0 +1,47 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 30px;
+    background-color: gray;
+}
+
+p {
+    font-size: 15px;
+}
+
+#top h1, #top p {
+    text-align: center;
+}
+
+.light {
+    font-weight: lighter;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.box {
+    width: 270px;
+    height: 250px;
+}
+
+.box , .tools h2, .tools p, .tools .box img {
+    background-color: white;
+}
+
+#supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+#team {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+#karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-top: 10px;
+}
+#calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
