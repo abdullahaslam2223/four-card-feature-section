@@ -5,6 +5,7 @@
 
 p {
     font-size: 15px;
+    color: gray;
 }
 
 #top {
@@ -64,4 +65,44 @@ p {
 .tools img {
     float: right;
     margin-top: 10px;
+}
+
+/* Making responsive for mobile device */
+@media only screen and (max-width: 375px) {
+    * {
+        padding: 0;
+        overflow-x: hidden;
+    }
+    h1, h2, p {
+        font-size: 8px;
+        text-align: left;
+    }
+    #top p {
+        width: 100%;
+    }
+    #top {
+        margin-top: 0;
+    }
+    .second-heading {
+        margin-top: 0px;
+    }
+    .tools {
+        flex-direction: column;
+    }
+    .box {
+        width: 180px;
+        height: 200px;
+    }
+    .tools img {
+        width: 40px;
+        float: none;
+        margin-left: 50px;
+    }
+    .tools h2, .tools p {
+        text-align: center;
+    }
+    #supervisor, #karma {
+        margin-bottom: 20px;
+    }
+
 }
